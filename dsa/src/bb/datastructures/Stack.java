@@ -23,7 +23,7 @@ public class Stack {
     }
 
     public boolean isEmpty() {
-        return entryPoint == null ? true : false;
+        return entryPoint == null;
     }
 
     public int size() {
